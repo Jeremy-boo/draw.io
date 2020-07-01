@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2020-07-01T00:55:36.655Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.3.5" etag="JmvMvx-gT124KSY9gXMg" type="github"><diagram id="VxGyCSa300pORVK34n85">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-01T01:18:12.694Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="nKwcqKjVGAw3jJEcpFYN" version="13.3.5" type="github">
+  <diagram id="VxGyCSa300pORVK34n85" name="第 1 页">
+    <mxGraphModel dx="782" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-1" value="" style="shape=ext;rounded=0;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="300" width="492" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GPF4Tl3sy7tEaeTOkUdq-2" target="GPF4Tl3sy7tEaeTOkUdq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="GPF4Tl3sy7tEaeTOkUdq-2" target="GPF4Tl3sy7tEaeTOkUdq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="294" y="547" />
+              <mxPoint x="294" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-2" value="prometheus server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="189" y="533" width="72" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-3" value="pushgateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="189" y="456.5" width="72" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-4" value="Alert&lt;br&gt;Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="518" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;自定义监控&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="353" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GPF4Tl3sy7tEaeTOkUdq-17" target="GPF4Tl3sy7tEaeTOkUdq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="442" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-19" value="项目metrics信息" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="415" width="97" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-20" value="push" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132" y="477" width="36" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-22" value="pull metrics" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="502" width="71" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="GPF4Tl3sy7tEaeTOkUdq-23" target="GPF4Tl3sy7tEaeTOkUdq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-23" value="自定义监控WebUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="610" width="91" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-25" value="设置告警规则" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="224" y="579" width="82" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="GPF4Tl3sy7tEaeTOkUdq-30" value="push rules" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264" y="550" width="65" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
